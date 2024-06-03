@@ -2,19 +2,19 @@
 services:
   gateway:
     image: bwdesigngroup/ignition-docker:8.1.32
-    hostname: <project-name>
+    hostname: danone-udt
     volumes:
       - ./ignition-data:/workdir
       - ./backups/gateway.gwbk:/restore.gwbk
     environment:
       SYMLINK_GITIGNORE: false
       SYMLINK_LOGBACK: false
-      GATEWAY_SYSTEM_NAME: <project-name>
+      GATEWAY_SYSTEM_NAME: danone-udt
       GATEWAY_PUBLIC_HTTPS_PORT: 443
-      GATEWAY_PUBLIC_ADDRESS: <project-name>.localtest.me
+      GATEWAY_PUBLIC_ADDRESS: danone-udt.localtest.me
     labels:
       traefik.enable: "true"
-      traefik.hostname: "<project-name>"
+      traefik.hostname: "danone-udt"
     command: >
       -r /restore.gwbk
     networks:

@@ -1,4 +1,4 @@
-# Ignition Docker Project Template
+# danone-udt
 
 ___
 
@@ -35,7 +35,7 @@ ___
    ./scripts/initialize.sh
     ```
 
-In a web browser, access the gateway at [http://$project-name.localtest.me](http://$project-name.localtest.me)
+In a web browser, access the gateway at [http://danone-udt.localtest.me](http://danone-udt.localtest.me)
 
 ___
 
