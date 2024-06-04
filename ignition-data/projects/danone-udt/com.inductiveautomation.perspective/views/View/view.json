@@ -1,6 +1,440 @@
 {
-  "custom": {},
+  "custom": {
+    "device_list": [
+      {
+        "Equipment Name": "Upstream",
+        "IP Address": "10.118.101.150",
+        "Ignition Device Name": "Ermi2_Doseuse",
+        "Line": "Ermi 02"
+      },
+      {
+        "Equipment Name": "Filler",
+        "IP Address": "10.118.101.150",
+        "Ignition Device Name": "Ermi2_Doseuse",
+        "Line": "Ermi 02"
+      },
+      {
+        "Equipment Name": "Sleever",
+        "IP Address": "10.118.101.127",
+        "Ignition Device Name": "Ermi2_Fuji",
+        "Line": "Ermi 02"
+      },
+      {
+        "Equipment Name": "Overwrapper",
+        "IP Address": "10.118.101.126",
+        "Ignition Device Name": "Ermi2_Suremballeuse",
+        "Line": "Ermi 02"
+      },
+      {
+        "Equipment Name": "Case Packer",
+        "IP Address": "10.118.101.126",
+        "Ignition Device Name": "Ermi2_Suremballeuse",
+        "Line": "Ermi 02"
+      },
+      {
+        "Equipment Name": "Elevator",
+        "IP Address": "10.118.101.126",
+        "Ignition Device Name": "Ermi2_Suremballeuse",
+        "Line": "Ermi 02"
+      },
+      {
+        "Equipment Name": "Palletizer",
+        "IP Address": "10.118.95.150",
+        "Ignition Device Name": "Fanuc 5",
+        "Line": "Ermi 02"
+      },
+      {
+        "Equipment Name": "Downstream",
+        "IP Address": "10.118.95.150",
+        "Ignition Device Name": "Fanuc 5",
+        "Line": "Ermi 02"
+      },
+      {
+        "Equipment Name": "Upstream",
+        "IP Address": "10.118.101.071",
+        "Ignition Device Name": "Arcil12_Doseuse",
+        "Line": "Arcil 12"
+      },
+      {
+        "Equipment Name": "Filler",
+        "IP Address": "10.118.101.071",
+        "Ignition Device Name": "Arcil12_Doseuse",
+        "Line": "Arcil 12"
+      },
+      {
+        "Equipment Name": "Overwrapper",
+        "IP Address": "10.118.101.073",
+        "Ignition Device Name": "Arcil12_Suremballeuse",
+        "Line": "Arcil 12"
+      },
+      {
+        "Equipment Name": "Case Packer",
+        "IP Address": "10.118.101.072",
+        "Ignition Device Name": "Arcil12_Encaisseuse",
+        "Line": "Arcil 12"
+      },
+      {
+        "Equipment Name": "Elevator",
+        "IP Address": "10.118.101.072",
+        "Ignition Device Name": "Arcil12_Encaisseuse",
+        "Line": "Arcil 12"
+      },
+      {
+        "Equipment Name": "Palletizer",
+        "IP Address": "10.118.95.110",
+        "Ignition Device Name": "Fanuc 1",
+        "Line": "Arcil 12"
+      },
+      {
+        "Equipment Name": "Downstream",
+        "IP Address": "10.118.95.110",
+        "Ignition Device Name": "Fanuc 1",
+        "Line": "Arcil 12"
+      },
+      {
+        "Equipment Name": "Upstream",
+        "IP Address": "10.118.101.084",
+        "Ignition Device Name": "Arcil11_Doseuse",
+        "Line": "Arcil 11"
+      },
+      {
+        "Equipment Name": "Filler",
+        "IP Address": "10.118.101.084",
+        "Ignition Device Name": "Arcil11_Doseuse",
+        "Line": "Arcil 11"
+      },
+      {
+        "Equipment Name": "Converger",
+        "IP Address": "10.118.101.083",
+        "Ignition Device Name": "Arcil11_Convergeuse",
+        "Line": "Arcil 11"
+      },
+      {
+        "Equipment Name": "Case Packer",
+        "IP Address": "10.118.101.082",
+        "Ignition Device Name": "Arcil11_Encaisseuse",
+        "Line": "Arcil 11"
+      },
+      {
+        "Equipment Name": "Elevator",
+        "IP Address": "10.118.101.082",
+        "Ignition Device Name": "Arcil11_Encaisseuse",
+        "Line": "Arcil 11"
+      },
+      {
+        "Equipment Name": "Palletizer",
+        "IP Address": "10.118.95.150",
+        "Ignition Device Name": "Fanuc 5",
+        "Line": "Arcil 11"
+      },
+      {
+        "Equipment Name": "Downstream",
+        "IP Address": "10.118.95.150",
+        "Ignition Device Name": "Fanuc 5",
+        "Line": "Arcil 11"
+      },
+      {
+        "Equipment Name": "Upstream",
+        "IP Address": "10.118.101.086",
+        "Ignition Device Name": "Arcil9_Doseuse",
+        "Line": "Arcil 09"
+      },
+      {
+        "Equipment Name": "Filler",
+        "IP Address": "10.118.101.086",
+        "Ignition Device Name": "Arcil9_Doseuse",
+        "Line": "Arcil 09"
+      },
+      {
+        "Equipment Name": "Overwrapper",
+        "IP Address": "10.118.101.088",
+        "Ignition Device Name": "Arcil9_Suremballeuse",
+        "Line": "Arcil 09"
+      },
+      {
+        "Equipment Name": "Case Packer",
+        "IP Address": "10.118.101.088",
+        "Ignition Device Name": "Arcil9_Suremballeuse",
+        "Line": "Arcil 09"
+      },
+      {
+        "Equipment Name": "Elevator",
+        "IP Address": "10.118.101.088",
+        "Ignition Device Name": "Arcil9_Suremballeuse",
+        "Line": "Arcil 09"
+      },
+      {
+        "Equipment Name": "Palletizer",
+        "IP Address": "10.118.95.120",
+        "Ignition Device Name": "Fanuc 2",
+        "Line": "Arcil 09"
+      },
+      {
+        "Equipment Name": "Downstream",
+        "IP Address": "10.118.95.120",
+        "Ignition Device Name": "Fanuc 2",
+        "Line": "Arcil 09"
+      },
+      {
+        "Equipment Name": "Upstream",
+        "IP Address": "10.118.101.091",
+        "Ignition Device Name": "Arcil8_Doseuse",
+        "Line": "Arcil 08"
+      },
+      {
+        "Equipment Name": "Filler",
+        "IP Address": "10.118.101.091",
+        "Ignition Device Name": "Arcil8_Doseuse",
+        "Line": "Arcil 08"
+      },
+      {
+        "Equipment Name": "Overwrapper",
+        "IP Address": "10.118.101.094",
+        "Ignition Device Name": "Arcil8_Suremballeuse",
+        "Line": "Arcil 08"
+      },
+      {
+        "Equipment Name": "Case Packer",
+        "IP Address": "10.118.101.093",
+        "Ignition Device Name": "Arcil8_Encaisseuse",
+        "Line": "Arcil 08"
+      },
+      {
+        "Equipment Name": "Elevator",
+        "IP Address": "10.118.101.096",
+        "Ignition Device Name": "Arcil8_Elevateur",
+        "Line": "Arcil 08"
+      },
+      {
+        "Equipment Name": "Palletizer",
+        "IP Address": "10.118.95.120",
+        "Ignition Device Name": "Fanuc 2",
+        "Line": "Arcil 08"
+      },
+      {
+        "Equipment Name": "Downstream",
+        "IP Address": "10.118.95.120",
+        "Ignition Device Name": "Fanuc 2",
+        "Line": "Arcil 08"
+      },
+      {
+        "Equipment Name": "Upstream",
+        "IP Address": "10.118.101.153",
+        "Ignition Device Name": "Arcil7_Doseuse",
+        "Line": "Arcil 07"
+      },
+      {
+        "Equipment Name": "Filler",
+        "IP Address": "10.118.101.153",
+        "Ignition Device Name": "Arcil7_Doseuse",
+        "Line": "Arcil 07"
+      },
+      {
+        "Equipment Name": "Overwrapper",
+        "IP Address": "10.118.101.154",
+        "Ignition Device Name": "Arcil7_Suremballeuse",
+        "Line": "Arcil 07"
+      },
+      {
+        "Equipment Name": "Case Packer",
+        "IP Address": "10.118.101.154",
+        "Ignition Device Name": "Arcil7_Suremballeuse",
+        "Line": "Arcil 07"
+      },
+      {
+        "Equipment Name": "Elevator",
+        "IP Address": "10.118.101.155",
+        "Ignition Device Name": "Arcil7_Elevateur",
+        "Line": "Arcil 07"
+      },
+      {
+        "Equipment Name": "Palletizer",
+        "IP Address": "10.118.95.130",
+        "Ignition Device Name": "Fanuc 3",
+        "Line": "Arcil 07"
+      },
+      {
+        "Equipment Name": "Downstream",
+        "IP Address": "10.118.95.130",
+        "Ignition Device Name": "Fanuc 3",
+        "Line": "Arcil 07"
+      },
+      {
+        "Equipment Name": "Upstream",
+        "IP Address": "10.118.101.145",
+        "Ignition Device Name": "Arcil5_Doseuse",
+        "Line": "Arcil 05"
+      },
+      {
+        "Equipment Name": "Filler",
+        "IP Address": "10.118.101.145",
+        "Ignition Device Name": "Arcil5_Doseuse",
+        "Line": "Arcil 05"
+      },
+      {
+        "Equipment Name": "Overwrapper",
+        "IP Address": "10.118.101.146",
+        "Ignition Device Name": "Arcil5_Suremballeuse",
+        "Line": "Arcil 05"
+      },
+      {
+        "Equipment Name": "Case Packer",
+        "IP Address": "10.118.101.146",
+        "Ignition Device Name": "Arcil5_Suremballeuse",
+        "Line": "Arcil 05"
+      },
+      {
+        "Equipment Name": "Elevator",
+        "IP Address": "10.118.101.147",
+        "Ignition Device Name": "Arcil5_Elevateur",
+        "Line": "Arcil 05"
+      },
+      {
+        "Equipment Name": "Palletizer",
+        "IP Address": "10.118.95.130",
+        "Ignition Device Name": "Fanuc 3",
+        "Line": "Arcil 05"
+      },
+      {
+        "Equipment Name": "Downstream",
+        "IP Address": "10.118.95.130",
+        "Ignition Device Name": "Fanuc 3",
+        "Line": "Arcil 05"
+      },
+      {
+        "Equipment Name": "Upstream",
+        "IP Address": "10.118.101.115",
+        "Ignition Device Name": "Gasti_Doseuse",
+        "Line": "Gasti 01"
+      },
+      {
+        "Equipment Name": "Tub Feeding Robot",
+        "IP Address": "10.118.101.118",
+        "Ignition Device Name": "Gasti_RobotPot",
+        "Line": "Gasti 01"
+      },
+      {
+        "Equipment Name": "Filler",
+        "IP Address": "10.118.101.115",
+        "Ignition Device Name": "Gasti_Doseuse",
+        "Line": "Gasti 01"
+      },
+      {
+        "Equipment Name": "Case Packer",
+        "IP Address": "10.118.101.117",
+        "Ignition Device Name": "Gasti_Encaisseuse",
+        "Line": "Gasti 01"
+      },
+      {
+        "Equipment Name": "Elevator",
+        "IP Address": "10.118.101.111",
+        "Ignition Device Name": "Gasti_Elevateur",
+        "Line": "Gasti 01"
+      },
+      {
+        "Equipment Name": "Palletizer",
+        "IP Address": "10.118.95.140",
+        "Ignition Device Name": "Fanuc 4",
+        "Line": "Gasti 01"
+      },
+      {
+        "Equipment Name": "Downstream",
+        "IP Address": "10.118.95.140",
+        "Ignition Device Name": "Fanuc 4",
+        "Line": "Gasti 01"
+      },
+      {
+        "Equipment Name": "Upstream",
+        "IP Address": "10.118.101.137",
+        "Ignition Device Name": "Hema1_Doseuse",
+        "Line": "Hema 01"
+      },
+      {
+        "Equipment Name": "Bottle Unscrambler",
+        "IP Address": "10.118.101.143",
+        "Ignition Device Name": "Hema1_OrienteurBout",
+        "Line": "Hema 01"
+      },
+      {
+        "Equipment Name": "Bottle Sterilizer",
+        "IP Address": "10.118.101.141",
+        "Ignition Device Name": "Hema1_WAB",
+        "Line": "Hema 01"
+      },
+      {
+        "Equipment Name": "Filler",
+        "IP Address": "10.118.101.137",
+        "Ignition Device Name": "Hema1_Doseuse",
+        "Line": "Hema 01"
+      },
+      {
+        "Equipment Name": "Sleever",
+        "IP Address": "10.118.101.137",
+        "Ignition Device Name": "Hema1_Doseuse",
+        "Line": "Hema 01"
+      },
+      {
+        "Equipment Name": "Case Packer",
+        "IP Address": "10.118.101.151",
+        "Ignition Device Name": "Hema1_Encaisseuse",
+        "Line": "Hema 01"
+      },
+      {
+        "Equipment Name": "Palletizer",
+        "IP Address": "10.118.95.160",
+        "Ignition Device Name": "Fanuc 6",
+        "Line": "Hema 01"
+      },
+      {
+        "Equipment Name": "Downstream",
+        "IP Address": "10.118.95.160",
+        "Ignition Device Name": "Fanuc 6",
+        "Line": "Hema 01"
+      },
+      {
+        "Equipment Name": "Upstream",
+        "IP Address": "10.118.101.101",
+        "Ignition Device Name": "Erca1_Doseuse",
+        "Line": "Erca 01"
+      },
+      {
+        "Equipment Name": "Filler",
+        "IP Address": "10.118.101.101",
+        "Ignition Device Name": "Erca1_Doseuse",
+        "Line": "Erca 01"
+      },
+      {
+        "Equipment Name": "Case Packer",
+        "IP Address": "10.118.101.103",
+        "Ignition Device Name": "Erca1_Encaisseuse",
+        "Line": "Erca 01"
+      },
+      {
+        "Equipment Name": "Elevator",
+        "IP Address": "10.118.101.103",
+        "Ignition Device Name": "Erca1_Encaisseuse",
+        "Line": "Erca 01"
+      },
+      {
+        "Equipment Name": "Palletizer",
+        "IP Address": "10.118.95.110",
+        "Ignition Device Name": "Fanuc 1",
+        "Line": "Erca 01"
+      },
+      {
+        "Equipment Name": "Downstream",
+        "IP Address": "10.118.95.110",
+        "Ignition Device Name": "Fanuc 1",
+        "Line": "Erca 01"
+      }
+    ]
+  },
   "params": {},
+  "propConfig": {
+    "custom.device_list": {
+      "persistent": true
+    }
+  },
   "props": {},
   "root": {
     "children": [
@@ -9,7 +443,7 @@
           "component": {
             "onFileReceived": {
               "config": {
-                "script": "\tsystem.perspective.print(event.file.getString())\n\tsystem.perspective.print(event.file.name)\n\t\"\"\"\n\tif event.file.name \u003d\u003d \"mappings.csv\":\n\t\tdevice_name \u003d TagCreation.GetDeviceName(event.file.getString())\n\tif event.file.name \u003d\u003d \"tags.csv\":\n\t\tTagCreation.CreateTag(device_name, event.file.getString())\n\t\"\"\""
+                "script": "\n\tif event.file.name \u003d\u003d \"mappings.csv\":\n\t\tself.view.custom.device_list \u003d TagCreation.get_mappings(event.file.getString())\n\tif event.file.name \u003d\u003d \"tags.csv\":\n\t\tsystem.perspective.print(\"calling tag creation\")\n\t\tTagCreation.create_tags(self.view.custom.device_list, event.file.getString())\n#\t\tself.view.custom.device_list \u003d []"
               },
               "scope": "G",
               "type": "script"
