@@ -1,0 +1,51 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "events": {
+          "component": {
+            "onFileReceived": {
+              "config": {
+                "script": "\tsystem.perspective.print(event.file.getString())\n\tsystem.perspective.print(event.file.name)\n\t\"\"\"\n\tif event.file.name \u003d\u003d \"mappings.csv\":\n\t\tdevice_name \u003d TagCreation.GetDeviceName(event.file.getString())\n\tif event.file.name \u003d\u003d \"tags.csv\":\n\t\tTagCreation.CreateTag(device_name, event.file.getString())\n\t\"\"\""
+              },
+              "scope": "G",
+              "type": "script"
+            }
+          }
+        },
+        "meta": {
+          "name": "FileUpload"
+        },
+        "position": {
+          "height": 145,
+          "width": 400,
+          "x": 26,
+          "y": 44
+        },
+        "type": "ia.input.fileupload"
+      },
+      {
+        "meta": {
+          "name": "Label"
+        },
+        "position": {
+          "height": 32,
+          "width": 310,
+          "x": 26,
+          "y": 12
+        },
+        "props": {
+          "text": "Upload Template and Mapping"
+        },
+        "type": "ia.display.label"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}

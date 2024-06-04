@@ -1,7 +1,7 @@
 ---
 services:
   gateway:
-    image: bwdesigngroup/ignition-docker:8.1.32
+    image: bwdesigngroup/ignition-docker:8.1.36
     hostname: danone-udt
     volumes:
       - ./ignition-data:/workdir
